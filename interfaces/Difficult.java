@@ -19,7 +19,7 @@ public class Difficult extends JFrame {
 		setLocationRelativeTo(null);
 
 		
-		JLabel label = new JLabel("Choisissez le niveau de difficulté"); //texte
+		JLabel label = new JLabel("Choisissez le niveau de difficultÃ©"); //texte
 		JPanel panel = new JPanel(); //conteneur label
 		JPanel bouton = new JPanel();//conteneur bouton 1, 2 et 3
 		JPanel bouton1 = new JPanel();//conteneur easy
@@ -68,7 +68,7 @@ public class Difficult extends JFrame {
 		hard.addActionListener(new ActionListener() { 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				System.out.println("Vous allez jouez contre une intelligence supérieur");
+				System.out.println("Vous allez jouez contre une intelligence supÃ©rieure");
 				setVisible(false);	
 				Grille frame=new Grille(3);
 				frame.setVisible(true);
@@ -77,7 +77,7 @@ public class Difficult extends JFrame {
 	
 		quitter.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent arg0){
-				System.out.println("jeu quitté");
+				System.out.println("jeu quittÃ©");
 				System.exit(0);
 			}
 		});
